@@ -364,7 +364,7 @@ a {
 #page-work {
   position: relative;
   text-align: center;
-  background: #23232e;
+  background-image: url(images/tile_background.png);
 }
 #page-work .h-01 {
   color: white;
