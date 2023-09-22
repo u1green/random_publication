@@ -883,4 +883,39 @@ body {
   animation-duration: 2s;
   animation-iteration-count: 2;
 }
+.about-me-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+
+.about-me-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.about-me-info div {
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-me-info {
+      flex-direction: column;
+  }
+  
+  
+  .about-me-info img {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  
+  .about-me-info div {
+      margin: 10px;
+      text-align: left;
+  }
+}
