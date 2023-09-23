@@ -919,3 +919,25 @@ body {
       text-align: left;
   }
 }
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+h1 {
+  font-size: 24px;
+  margin: 20px;
+}
